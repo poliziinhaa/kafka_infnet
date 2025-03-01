@@ -1,0 +1,22 @@
+# Ignorar pastas de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar ambientes virtuais do Python
+venv/
+kafka/
+
+# Ignorar configurações do VS Code (caso use)
+.vscode/
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorar arquivos do Docker
+*.pid
+*.sock
